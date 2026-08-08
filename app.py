@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return """
-    <h1 style='color: green;'>Hello Amruth!</h1>
+    <h1 style='color: green;'>Hello All!</h1>
     <p>Your Jenkins + Docker CI/CD pipeline is working perfectly.</p>
     <p>Every commit will now auto‑deploy.</p>
     """
